@@ -9,12 +9,6 @@ import java.util.LinkedList;
 public class Main {
 
     public static void main(String[] args) {
-        try {
-            Class.forName("org.postgresql.Driver");
-        } catch(Exception e) {
-            e.printStackTrace();
-            System.out.println("error occurred");
-        }
         // write your code here
         Secrets credentials = new Secrets();
 
