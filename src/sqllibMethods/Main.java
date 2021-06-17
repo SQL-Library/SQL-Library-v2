@@ -18,6 +18,8 @@ public class Main {
 
         String[] columnsLabels = {"first_name", "last_name", "username", "friends", "companies"};
         print(Readable.readDB("users", columnsLabels, credentials));
+
+
     }
 
     public static void print(LinkedList<String[]> databaseData) {

@@ -39,3 +39,6 @@ update:
 delete:
 - delete a column
 - delete a table ✅
+
+Run Command without output:
+- run any sql command without any output (one way command) ✅
