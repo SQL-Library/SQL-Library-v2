@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SQL-Library:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SQL_Library_jar</output-path>
+    <root id="archive" name="SQL-Library.jar">
+      <element id="module-output" name="SQL-Library" />
+    </root>
+  </artifact>
+</component>
