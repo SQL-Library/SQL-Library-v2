@@ -1,7 +1,7 @@
 package sqllibMethods.Interfaces;
 
-import sqllib.Implements.Create;
-import sqllib.Secrets;
+import sqllibMethods.Implements.Create;
+import sqllibMethods.Secrets;
 
 public interface Creatable {
 

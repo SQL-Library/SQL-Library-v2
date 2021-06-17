@@ -7,16 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.25.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/dependencies/mssql-jdbc-9.2.1.jre15.jar!/" />
@@ -25,7 +16,16 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/dependencies/mysql-connector-java-8.0.25.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/dependencies/ojdbc11.jar!/" />
@@ -34,7 +34,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/dependencies/postgresql-42.2.21.jar!/" />
