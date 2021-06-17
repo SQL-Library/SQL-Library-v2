@@ -19,7 +19,23 @@ public class Create extends SQL implements Creatable {
         SQLCommand(query, credentials);
     }
 
-    public void insertIntoTable() {
-        // complete function
+    public void insertIntoTable(String tableName, String[] columns, String[] values) {
+        String query = String.format("INSERT INTO %s(", tableName);
+
+        for (int i=0; i<columns.length; i++) {
+            if (i != columns.length-1) query += columns[i] + ",";
+            else query += columns[i];
+        }
+
+        query += ")\n";
+        query += "VALUES (";
+
+        for (int i=0; i<columns.length; i++) {
+            if (i != columns.length-1) query += "'" + columns[i] + "',";
+            else query += "'" + columns[i] + "'";
+        }
+
+        query += ")";
+
     }
 }
