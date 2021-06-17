@@ -1,7 +1,8 @@
 package sqllibMethods;
 
-import sqllibMethods.Interfaces.Readable;
+//import sqllibMethods.Interfaces.Readable;
 import java.util.LinkedList;
+import sqllibMethods.Secrets;
 
 public class Main {
 
@@ -13,8 +14,8 @@ public class Main {
         credentials.setUsername("apinan");
         credentials.setPassword("admin");
 
-        String[] columnsLabels = {"first_name", "last_name", "username", "friends", "companies"};
-        print(Readable.readDB("users", columnsLabels, credentials));
+//        String[] columnsLabels = {"first_name", "last_name", "username", "friends", "companies"};
+//        print(Readable.readDB("users", columnsLabels, credentials));
     }
 
     public static void print(LinkedList<String[]> databaseData) {
