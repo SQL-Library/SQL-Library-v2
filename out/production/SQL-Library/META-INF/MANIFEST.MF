@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Main-Class: sqllibMethods.Main
-Class-Path: lib/mssql-jdbc-9.2.1.jre15.jar
-Class-Path: lib/mysql-connector-java-8.0.25.jar
-Class-Path: lib/ojdbc11.jar
-Class-Path: lib/postgresql-42.2.21.jar
+Class-Path: lib.mssql-jdbc-9.2.1.jre15.jar
+Class-Path: lib.mysql-connector-java-8.0.25.jar
+Class-Path: lib.ojdbc11.jar
+Class-Path: lib.postgresql-42.2.21.jar
 
 
