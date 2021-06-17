@@ -2,7 +2,7 @@ package sqllibMethods;
 
 import sqllibMethods.Interfaces.Creatable;
 import sqllibMethods.Interfaces.Readable;
-// import sqllibMethods.Interfaces.Updatable;
+import sqllibMethods.Interfaces.Updatable;
 import sqllibMethods.Interfaces.Deletable;
 import java.util.LinkedList;
 
