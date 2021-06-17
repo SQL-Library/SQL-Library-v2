@@ -19,7 +19,7 @@ public class Create extends SQL implements Creatable {
         SQLCommand(query, credentials);
     }
 
-    public void createNewObject(String query) {
-
+    public void insertIntoTable() {
+        // complete function
     }
 }
