@@ -10,9 +10,12 @@ public class Create extends SQL implements Creatable {
         String query = String.format("CREATE TABLE %s(", tableName);
 
         for (int i=0; i<columns.length; i++) {
-
+            if (i != columns.length-1) query += columns[i] += " " + dataTypes[i] + ",";
+            else query += columns[i] += " " + dataTypes[i];
         }
+
         query += ")";
+        System.out.println(query);
         SQLCommand(query, credentials);
     }
 

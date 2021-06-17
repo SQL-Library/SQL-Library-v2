@@ -22,7 +22,7 @@ taking place and uses the classes accordingly
 
 # planned methods:
 create:
-- create table
+- create table ✅
 - create a new item and append data to table
 - create new column
 
