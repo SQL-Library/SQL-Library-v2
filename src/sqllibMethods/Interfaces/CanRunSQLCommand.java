@@ -1,7 +1,6 @@
 package sqllibMethods.Interfaces;
 
 import sqllibMethods.Implements.RunSQLCommand;
-import sqllibMethods.Secrets;
 
 public interface CanRunSQLCommand {
 

@@ -1,8 +1,6 @@
 package sqllibMethods.Interfaces;
 
 import sqllibMethods.Implements.Read;
-import sqllibMethods.Secrets;
-
 import java.util.LinkedList;
 
 public interface Readable {

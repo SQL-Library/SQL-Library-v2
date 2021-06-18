@@ -1,6 +1,6 @@
 package sqllibMethods.Implements;
 
-import sqllibMethods.Secrets;
+import sqllibMethods.Interfaces.Secrets;
 
 public class RunSQLCommand extends SQL{
 

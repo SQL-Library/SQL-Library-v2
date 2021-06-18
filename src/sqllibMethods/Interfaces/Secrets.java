@@ -1,7 +1,6 @@
 package sqllibMethods.Interfaces;
 
 public class Secrets {
-
     private String username;
     private String password;
     private String url;
