@@ -4,6 +4,7 @@ import sqllibMethods.Interfaces.Creatable;
 import sqllibMethods.Interfaces.Readable;
 import sqllibMethods.Interfaces.Updatable;
 import sqllibMethods.Interfaces.Deletable;
+import sqllibMethods.Interfaces.Secrets;
 
 import java.io.IOException;
 import java.util.LinkedList;
