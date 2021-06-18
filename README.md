@@ -1,12 +1,14 @@
 # SQL Library
 
-# How to use:
+# How to use: (add to docs)
 Set up username, password and url for db by instantiating a Secrets <br />
 object using Secrets.java methods. Use Secrets setters at the beginning of your application <br />
 `Secrets credentials = new Secrets();` <br />
 `secrets.setUsername(username_goes_here);` <br />
 `secrets.setPassword(password_goes_here);` <br />
 `secrets.setUrl(url_goes_here);` <br />
+
+AS OF NOW, CONSIDER BUILDING PROJECT ON TOP OF THIS (I.E. FRAMEWORK)
 
 ## Relational SQL services support:
 #### - Postgres
