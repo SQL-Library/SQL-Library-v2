@@ -25,3 +25,4 @@ Notes:
 - find out how to make project as a library so other people can simply download package
 and place it in their working directory
   - test out ^
+  - continuing development at a later date after full java fundamentals learned
