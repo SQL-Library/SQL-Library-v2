@@ -3,13 +3,9 @@ package com.sqllibrary.lib;
 import com.sqllibrary.lib.sqllibMethods.Interfaces.Creatable;
 import com.sqllibrary.lib.sqllibMethods.Interfaces.Readable;
 import com.sqllibrary.lib.sqllibMethods.Interfaces.Secrets;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import java.io.IOException;
 import java.util.LinkedList;
 
-@SpringBootApplication
 public class LibApplication {
 
 	public static void main(String[] args) throws IOException {
@@ -29,8 +25,6 @@ public class LibApplication {
 		Creatable.createNewTable("someTable", columns, dataTypes, credentials);
 
 		System.out.println("Success -----------------");
-
-		SpringApplication.run(LibApplication.class, args);
 	}
 
 	public static void print(LinkedList<String[]> databaseData) {
