@@ -20,4 +20,9 @@ public interface Creatable {
         // if contains ', ask user to put ''
         create.insertIntoTable(tableName, columns ,dataTypes, values, credentials);
     }
+
+    static void createNewColumn(String tableName, String columnName, String dataType, Secrets credentials) throws IOException{
+        if (tableName == null || columnName == null || dataType == null || credentials == null) throw new IOException("cannot pass in null arguments.");
+        create.createNewColumn(tableName, columnName, dataType, credentials);
+    }
 }

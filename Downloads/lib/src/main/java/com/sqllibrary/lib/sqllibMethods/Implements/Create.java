@@ -37,6 +37,11 @@ public class Create extends SQL implements Creatable {
         }
 
         query += ")";
+        SQLCommand(query, credentials);
+    }
+
+    public void createNewColumn(String tableName, String columnName, String dataType, Secrets credentials) {
+        String query = String.format("ALTER TABLE %s\nADD %s %s", tableName, columnName, dataType);
         System.out.println(query);
         SQLCommand(query, credentials);
     }

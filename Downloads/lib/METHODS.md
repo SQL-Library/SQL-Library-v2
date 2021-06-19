@@ -1,5 +1,6 @@
 # SQL Library Docs
 
+add throws IOException to main class
 ## Create methods
 ### Instantiate Object: No Instance Required
 ### ``
@@ -23,7 +24,7 @@
 # planned methods:
 create:
 - create table ✅
-- create a new item and append data to table ✅
+- create a new item and append data to table ✅ (check types later on)
 - create new column
 
 read:

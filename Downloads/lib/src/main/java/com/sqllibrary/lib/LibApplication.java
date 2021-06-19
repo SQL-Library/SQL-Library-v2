@@ -33,6 +33,10 @@ public class LibApplication {
 		String[] valuesUpdated = {"9280374", "BENZ", "AMG", "c-250"};
 		String[] dataTypesUpdated = {"INT NOT NULL", "VARCHAR(64)", "VARCHAR(128)", "VARCHAR(255)"};
 		Creatable.insertIntoTable(tableName, columnsUpdated, dataTypesUpdated, valuesUpdated, credentials);
+
+		System.out.println("Success -----------------");
+
+		Creatable.createNewColumn(tableName, "Email", "VARCHAR(150)", credentials);
 	}
 
 	public static void print(LinkedList<String[]> databaseData) {
