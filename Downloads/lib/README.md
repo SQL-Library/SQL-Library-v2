@@ -12,9 +12,16 @@ AS OF NOW, CONSIDER BUILDING PROJECT ON TOP OF THIS (I.E. FRAMEWORK)
 
 ## Relational SQL services support:
 #### - Postgres
+#### - Spring
+#### - MariaDB
+#### - MongoDB
 #### - MySQL
+#### - SQLite
 #### - SQL Server
 #### - Oracle Database
+#### - Tomcat
+#### - Spring Boot Starter
+#### - Hive
 
 ### Disclaimer of Software Warranty. <br />
 THIS LIBRARY PROVIDES THE SOFTWARE TO YOU "AS IS" AND WITHOUT WARRANTY OF ANY KIND, EXPRESS, <br />
