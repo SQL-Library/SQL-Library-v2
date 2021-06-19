@@ -1,5 +1,6 @@
 # SQL Library Docs
 
+add throws IOException to main class
 ## Create methods
 ### Instantiate Object: No Instance Required
 ### ``
@@ -17,13 +18,13 @@
 ### `Deletable.deleteTable(STRING_TABLE_NAME_HERE);`
 
 - might need to make a parser to make sql commands
-universal which the parser identifies which operation is
-taking place and uses the classes accordingly
+  universal which the parser identifies which operation is
+  taking place and uses the classes accordingly
 
 # planned methods:
 create:
 - create table ✅
-- create a new item and append data to table
+- create a new item and append data to table ✅ (check types later on)
 - create new column
 
 read:
@@ -34,7 +35,7 @@ read:
 
 update:
 - update a column
-- update an item 
+- update an item
 
 delete:
 - delete a column
