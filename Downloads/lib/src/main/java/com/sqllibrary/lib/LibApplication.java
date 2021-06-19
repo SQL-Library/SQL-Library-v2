@@ -2,6 +2,8 @@ package com.sqllibrary.lib;
 
 import com.sqllibrary.lib.sqllibMethods.Interfaces.Creatable;
 import com.sqllibrary.lib.sqllibMethods.Interfaces.Readable;
+import com.sqllibrary.lib.sqllibMethods.Interfaces.Updatable;
+import com.sqllibrary.lib.sqllibMethods.Interfaces.Deletable;
 import com.sqllibrary.lib.sqllibMethods.Interfaces.Secrets;
 import java.io.IOException;
 import java.util.LinkedList;
