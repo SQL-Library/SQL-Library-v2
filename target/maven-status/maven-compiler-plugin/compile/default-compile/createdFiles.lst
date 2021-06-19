@@ -1,0 +1,13 @@
+sqllibMethods/Implements/Read.class
+sqllibMethods/Interfaces/Updatable.class
+sqllibMethods/Implements/RunSQLCommand.class
+sqllibMethods/Implements/Update.class
+sqllibMethods/Interfaces/CanRunSQLCommand.class
+sqllibMethods/Interfaces/Secrets.class
+sqllibMethods/Main.class
+sqllibMethods/Implements/Delete.class
+sqllibMethods/Interfaces/Readable.class
+sqllibMethods/Interfaces/Deletable.class
+sqllibMethods/Implements/SQL.class
+sqllibMethods/Implements/Create.class
+sqllibMethods/Interfaces/Creatable.class

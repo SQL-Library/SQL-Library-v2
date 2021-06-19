@@ -1,0 +1,13 @@
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Main.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Implements/RunSQLCommand.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Interfaces/Readable.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Interfaces/Updatable.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Implements/Create.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Implements/Update.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Interfaces/Deletable.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Implements/Read.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Interfaces/Creatable.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Interfaces/CanRunSQLCommand.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Implements/SQL.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Implements/Delete.java
+/Users/apinanyogaratnam/Desktop/SQL-Library/src/main/java/sqllibMethods/Interfaces/Secrets.java
