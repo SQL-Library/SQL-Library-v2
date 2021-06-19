@@ -10,16 +10,15 @@ public class Create extends SQL implements Creatable {
         String query = String.format("CREATE TABLE %s(", tableName);
 
         for (int i=0; i<columns.length; i++) {
-            if (i != columns.length-1) query += columns[i] += " " + dataTypes[i] + ",";
-            else query += columns[i] += " " + dataTypes[i];
+            if (i != columns.length-1) query += columns[i] + " " + dataTypes[i] + ",";
+            else query += columns[i] + " " + dataTypes[i];
         }
 
         query += ")";
-        System.out.println(query);
         SQLCommand(query, credentials);
     }
 
-    public void insertIntoTable(String tableName, String[] columns, String[] values) {
+    public void insertIntoTable(String tableName, String[] columns, String[] dataTypes, String[] values, Secrets credentials) {
         String query = String.format("INSERT INTO %s(", tableName);
 
         for (int i=0; i<columns.length; i++) {
@@ -28,14 +27,17 @@ public class Create extends SQL implements Creatable {
         }
 
         query += ")\n";
+        System.out.println(query);
         query += "VALUES (";
 
+        // also check which datatype it is to remove '' when its a number(contains INT, float (check sql data types)) and keep '' if its a text/longtext
         for (int i=0; i<columns.length; i++) {
-            if (i != columns.length-1) query += "'" + columns[i] + "',";
-            else query += "'" + columns[i] + "'";
+            if (i != columns.length-1) query += "'" + values[i] + "',";
+            else query += "'" + values[i] + "'";
         }
 
         query += ")";
-
+        System.out.println(query);
+        SQLCommand(query, credentials);
     }
 }
