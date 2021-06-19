@@ -1,6 +1,7 @@
 package com.sqllibrary.lib.sqllibMethods.Interfaces;
 
 import com.sqllibrary.lib.sqllibMethods.Implements.Read;
+import com.sqllibrary.lib.sqllibMethods.Secrets;
 
 import java.util.LinkedList;
 

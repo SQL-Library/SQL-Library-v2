@@ -1,6 +1,8 @@
 package com.sqllibrary.lib.sqllibMethods.Interfaces;
 
 import com.sqllibrary.lib.sqllibMethods.Implements.Create;
+import com.sqllibrary.lib.sqllibMethods.Secrets;
+
 import java.io.IOException;
 
 public interface Creatable {

@@ -2,20 +2,17 @@ package com.sqllibrary.lib;
 
 import com.sqllibrary.lib.sqllibMethods.Interfaces.Creatable;
 import com.sqllibrary.lib.sqllibMethods.Interfaces.Readable;
-import com.sqllibrary.lib.sqllibMethods.Interfaces.Updatable;
-import com.sqllibrary.lib.sqllibMethods.Interfaces.Deletable;
-import com.sqllibrary.lib.sqllibMethods.Interfaces.Secrets;
+import com.sqllibrary.lib.sqllibMethods.Secrets;
 import java.io.IOException;
 import java.util.LinkedList;
 
 public class LibApplication {
 
 	public static void main(String[] args) throws IOException {
-		Secrets credentials = new Secrets();
-
-		credentials.setUrl("jdbc:postgresql://localhost/test");
-		credentials.setUsername("apinan");
-		credentials.setPassword("admin");
+		String username = "apinan";
+		String password = "admin";
+		String url = "jdbc:postgresql://localhost/test";
+		Secrets credentials = new Secrets(username, password, url);
 
 		String[] columnsLabels = {"first_name", "last_name", "username", "friends", "companies"};
 		print(Readable.readDB("users", columnsLabels, credentials));

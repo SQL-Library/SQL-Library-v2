@@ -1,6 +1,6 @@
 package com.sqllibrary.lib.sqllibMethods.Implements;
 
-import com.sqllibrary.lib.sqllibMethods.Interfaces.Secrets;
+import com.sqllibrary.lib.sqllibMethods.Secrets;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

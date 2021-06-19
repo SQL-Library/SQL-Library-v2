@@ -1,15 +1,21 @@
-package com.sqllibrary.lib.sqllibMethods.Interfaces;
+package com.sqllibrary.lib.sqllibMethods;
 
 public class Secrets {
     private String username;
     private String password;
     private String url;
 
+    public Secrets(String username, String password, String url) {
+        this.setUsername(username);
+        this.setPassword(password);
+        this.setUrl(url);
+    }
+
     public String getUsername() {
         return this.username;
     }
 
-    public void setUsername(String username) {
+    private void setUsername(String username) {
         this.username = username;
     }
 
@@ -17,7 +23,7 @@ public class Secrets {
         return this.password;
     }
 
-    public void setPassword(String password) {
+    private void setPassword(String password) {
         this.password = password;
     }
 
@@ -25,7 +31,7 @@ public class Secrets {
         return this.url;
     }
 
-    public void setUrl(String url) {
+    private void setUrl(String url) {
         this.url = url;
     }
 }

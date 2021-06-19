@@ -1,6 +1,7 @@
 package com.sqllibrary.lib.sqllibMethods.Interfaces;
 
 import com.sqllibrary.lib.sqllibMethods.Implements.Delete;
+import com.sqllibrary.lib.sqllibMethods.Secrets;
 
 public interface Deletable {
 

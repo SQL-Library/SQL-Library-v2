@@ -1,7 +1,7 @@
 package com.sqllibrary.lib.sqllibMethods.Implements;
 
 import com.sqllibrary.lib.sqllibMethods.Interfaces.Creatable;
-import com.sqllibrary.lib. sqllibMethods.Interfaces.Secrets;
+import com.sqllibrary.lib.sqllibMethods.Secrets;
 
 public class Create extends SQL implements Creatable {
 
